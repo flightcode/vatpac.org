@@ -1,4 +1,4 @@
-# Vatpac.org
+# VATPAC.org
 
 VATPAC website, built in Angular.
 
