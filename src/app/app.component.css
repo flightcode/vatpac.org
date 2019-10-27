@@ -2,3 +2,9 @@
   transition: 0.2s;
   -webkit-transition: 0.2s;
 }
+.bootstrap-select .dropdown-toggle:focus {
+  outline: none !important;
+}
+:focus {
+  outline: none !important;
+}
