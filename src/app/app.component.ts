@@ -9,14 +9,11 @@ export class AppComponent {
   @HostListener("window:scroll", ["$event"])
   onWindowScroll() {
     if ((document.documentElement.scrollTop || document.body.scrollTop) > 50) {
-      console.log("not top");
       document.getElementById("navbar").classList.remove("bg-transparent");
       document.getElementById("navbar").classList.add("bg-dark");
     } else {
-      console.log("top");
       document.getElementById("navbar").classList.remove("bg-dark");
       document.getElementById("navbar").classList.add("bg-transparent");
     }
-    console.log("scroll");
   }
 }
