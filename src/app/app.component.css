@@ -1,0 +1,4 @@
+.navbar.fixed-top {
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+}
