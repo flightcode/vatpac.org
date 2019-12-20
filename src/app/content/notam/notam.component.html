@@ -1,0 +1,16 @@
+<div class="card text-center mx-2 my-2">
+  <div class="card-body">
+    <h5 class="card-title">{{ title }}</h5>
+    <p class="card-text"><ng-content></ng-content></p>
+    <a href="#" class="btn btn-primary">Read More</a>
+  </div>
+  <div class="card-footer text-muted">
+    In effect in
+    {{ startDateObject - currentDateObject | date: "d" }}
+    days ({{ startDateObject | date: "HH:mm yyyy-MM-dd (z)" }})
+    <br />
+    Expires in
+    {{ endDateObject - currentDateObject | date: "d" }}
+    days ({{ endDateObject | date: "HH:mm yyyy-MM-dd (z)" }})
+  </div>
+</div>
