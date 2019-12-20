@@ -1,0 +1,10 @@
+.scrolldownicon {
+  bottom: 0;
+  left: calc(50% - 25px);
+  position: absolute;
+  width: 50px;
+  z-index: +1;
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 3;
+}
