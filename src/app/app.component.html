@@ -1,176 +1,7 @@
-<nav
-  class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top"
-  id="navbar"
->
-  <a class="navbar-brand" href="#"></a>
-  <button
-    class="navbar-toggler"
-    type="button"
-    data-toggle="collapse"
-    data-target="#navbarsExample04"
-    aria-controls="navbarsExample04"
-    aria-expanded="false"
-    aria-label="Toggle navigation"
-  >
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarsExample04">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#"
-          >Home <span class="sr-only">(current)</span></a
-        >
-      </li>
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle"
-          href="#"
-          id="dropdown04"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-          >About Us</a
-        >
-        <div class="dropdown-menu" aria-labelledby="dropdown04">
-          <a class="dropdown-item" href="#">Item 1</a>
-          <a class="dropdown-item" href="#">Item 2</a>
-          <a class="dropdown-item" href="#">Item</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle"
-          href="#"
-          id="dropdown04"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-          >Community</a
-        >
-        <div class="dropdown-menu" aria-labelledby="dropdown04">
-          <a class="dropdown-item" href="#">Item 1</a>
-          <a class="dropdown-item" href="#">Item 2</a>
-          <a class="dropdown-item" href="#">Item</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle"
-          href="#"
-          id="dropdown04"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-          >Pilots</a
-        >
-        <div class="dropdown-menu" aria-labelledby="dropdown04">
-          <a class="dropdown-item" href="#">Item 1</a>
-          <a class="dropdown-item" href="#">Item 2</a>
-          <a class="dropdown-item" href="#">Item</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle"
-          href="#"
-          id="dropdown04"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-          >Controllers</a
-        >
-        <div class="dropdown-menu" aria-labelledby="dropdown04">
-          <a class="dropdown-item" href="#">Item 1</a>
-          <a class="dropdown-item" href="#">Item 2</a>
-          <a class="dropdown-item" href="#">Item</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle"
-          href="#"
-          id="dropdown04"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-          >Operations</a
-        >
-        <div class="dropdown-menu" aria-labelledby="dropdown04">
-          <a class="dropdown-item" href="#">Item 1</a>
-          <a class="dropdown-item" href="#">Item 2</a>
-          <a class="dropdown-item" href="#">Item</a>
-        </div>
-      </li>
-      <li class="nav-item dropdown">
-        <a
-          class="nav-link dropdown-toggle"
-          href="#"
-          id="dropdown04"
-          data-toggle="dropdown"
-          aria-haspopup="true"
-          aria-expanded="false"
-          >Events</a
-        >
-        <div class="dropdown-menu" aria-labelledby="dropdown04">
-          <a class="dropdown-item" href="#">Item 1</a>
-          <a class="dropdown-item" href="#">Item 2</a>
-          <a class="dropdown-item" href="#">Item</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">VATPAX</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-<div
-  id="landingSlide"
-  class="carousel slide carousel-fade"
-  data-ride="carousel"
->
-  <div class="carousel-inner" style="height:100vh;">
-    <div class="carousel-item active" style="height:100%;">
-      <div
-        style="background:url('/assets/img/carousel_1.png');background-repeat:no-repeat;background-position:center;background-size:cover;height:100%;width:100%;"
-        class="d-block w-100"
-        alt="..."
-      ></div>
-    </div>
-    <div class="carousel-item" style="height:100%;">
-      <div
-        style="background:url('/assets/img/carousel_2.png');background-repeat:no-repeat;background-position:center;background-size:cover;height:100%;width:100%;"
-        class="d-block w-100"
-        alt="..."
-      ></div>
-    </div>
-    <div class="carousel-item" style="height:100%;">
-      <div
-        style="background:url('/assets/img/carousel_3.png');background-repeat:no-repeat;background-position:center;background-size:cover;height:100%;width:100%;"
-        class="d-block w-100"
-        alt="..."
-      ></div>
-    </div>
-    <div
-      class="pattern"
-      style="height:100%;width:100%;z-index:+1;position:absolute;background:url('/assets/img/pattern.png');background-repeat:repeat;"
-    ></div>
-    <div
-      class="logo"
-      style="height:100%;width:100%;z-index:+2;position:absolute;background:url('/assets/img/logo_white.png');background-repeat:no-repeat;background-position:center;"
-    ></div>
-  </div>
-  <svg
-    class="scrolldownicon"
-    viewBox="0 0 100 100"
-    preserveAspectRatio="xMidYMid"
-    style="visibility: visible;"
-  >
-    <path d="M20 35 L50 65 L80 35"></path>
-  </svg>
-</div>
+<app-navbar></app-navbar>
+<app-landing></app-landing>
 <div class="container">
-  <div class="jumbotron bg-transparent py-4">
+  <app-jumbotron>
     <h1 class="display-4">Welcome!</h1>
     <p class="lead">
       Welcome to VATPAC, the home of <b>VATSIM Australia Pacific</b>. VATPAC
@@ -187,20 +18,17 @@
     <footer class="blockquote-footer">
       VATPAC Board of Directors
     </footer>
-  </div>
-  <!-- <div class="card mx-3 my-3">
+  </app-jumbotron>
+  <!-- <app-card>
     <img
       src="https://departments.vatpac.org/events/banners/afv.png"
       class="card-img-top"
       alt="..."
     />
-  </div> -->
+  </app-card> -->
   <div class="row">
     <div class="col-lg-4">
-      <div class="card mx-3 my-3">
-        <div class="card-header">
-          Online Controllers
-        </div>
+      <app-card [header]="'Online Controllers'">
         <ul class="list-group list-group-flush">
           <li class="list-group-item">
             <div class="row">
@@ -239,11 +67,8 @@
             </div>
           </li>
         </ul>
-      </div>
-      <div class="card mx-3 my-3">
-        <div class="card-header">
-          Activity
-        </div>
+      </app-card>
+      <app-card [header]="'Activity'">
         <ul class="list-group list-group-flush">
           <li class="list-group-item">
             <div class="row">
@@ -318,31 +143,22 @@
             </div>
           </li>
         </ul>
-      </div>
-      <div class="card mx-3 my-3">
-        <div class="card-header">
-          Events
-        </div>
+      </app-card>
+      <app-card [header]="'Events'">
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Event</li>
           <li class="list-group-item">Event</li>
           <li class="list-group-item">Event</li>
         </ul>
-      </div>
-      <div class="card mx-3 my-3">
-        <div class="card-header">
-          Links
-        </div>
+      </app-card>
+      <app-card [header]="'Links'">
         <ul class="list-group list-group-flush">
           <li class="list-group-item">Link</li>
           <li class="list-group-item">Link</li>
           <li class="list-group-item">Link</li>
         </ul>
-      </div>
-      <div class="card mx-3 my-3">
-        <div class="card-header">
-          The Scope
-        </div>
+      </app-card>
+      <app-card [header]="'The Scope'">
         <div class="card-body">
           <form>
             <div class="form-group">
@@ -366,27 +182,21 @@
             <button type="submit" class="btn btn-primary">Subscribe</button>
           </form>
         </div>
-      </div>
+      </app-card>
     </div>
     <div class="col-lg-8">
       <div class="row">
         <div class="col-lg-6">
-          <div class="card mx-3 my-3">
-            <div class="card-header">
-              Announcements
-            </div>
+          <app-card [header]="'Announcements'">
             <ul class="list-group list-group-flush">
               <li class="list-group-item text-danger">Announcement</li>
               <li class="list-group-item">Announcement</li>
               <li class="list-group-item">Announcement</li>
             </ul>
-          </div>
+          </app-card>
         </div>
         <div class="col-lg-6">
-          <div class="card mx-3 my-3">
-            <div class="card-header">
-              ATC Promotions
-            </div>
+          <app-card [header]="'ATC Promotions'">
             <ul class="list-group list-group-flush">
               <li class="list-group-item">
                 <div class="row">
@@ -425,53 +235,19 @@
                 </div>
               </li>
             </ul>
-          </div>
+          </app-card>
         </div>
       </div>
-      <div class="card mx-3 my-3">
-        <div class="card-header">
-          NOTAMs
-        </div>
-        <div class="card text-center mx-2 my-2">
-          <div class="card-body">
-            <h5 class="card-title">Title</h5>
-            <p class="card-text">
-              Content
-            </p>
-            <a href="#" class="btn btn-primary">Read More</a>
-          </div>
-          <div class="card-footer text-muted">
-            Expires in 2 days (DD/MM/YYY)
-          </div>
-        </div>
-        <div class="card text-center mx-2 my-2">
-          <div class="card-body">
-            <h5 class="card-title">Title</h5>
-            <p class="card-text">
-              Content
-            </p>
-            <a href="#" class="btn btn-primary">Read More</a>
-          </div>
-          <div class="card-footer text-muted">
-            In effect in 2 days (DD/MM/YYY)
-          </div>
-        </div>
-      </div>
+      <app-card [header]="'NOTAMs'">
+        <app-notam
+          [title]="'Title'"
+          [startDate]="'2019-12-25'"
+          [endDate]="'2019-12-31'"
+        >
+          Content
+        </app-notam>
+      </app-card>
     </div>
   </div>
 </div>
-<footer class="footer bg-light mt-auto py-3">
-  <div class="container">
-    <span class="text-muted">
-      The information contained on this website is only to be used for flight
-      simulation purposes on the VATSIM network. Whilst the information
-      contained on this site is about real places and contains real world
-      procedures, it is not intended nor should it be used for real world
-      navigation. This website is not affiliated with Airservices Australia.
-    </span>
-    <hr />
-    <span class="text-muted">
-      © 1998 - 2019 VATPAC (VATSIM Australia Pacific)
-    </span>
-  </div>
-</footer>
+<app-footer></app-footer>
